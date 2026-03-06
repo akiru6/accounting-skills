@@ -1,0 +1,217 @@
+[
+    {
+        "account_code": "6602.01",
+        "account_name": "管理费用-办公费",
+        "account_type": "expense",
+        "keywords": [
+            "办公用品",
+            "文具",
+            "耗材",
+            "打印纸",
+            "复印",
+            "印刷",
+            "纯净水"
+        ],
+        "tax_deductible": true
+    },
+    {
+        "account_code": "6602.02",
+        "account_name": "管理费用-差旅费",
+        "account_type": "expense",
+        "keywords": [
+            "交通",
+            "出租车",
+            "网约车",
+            "住宿",
+            "酒店",
+            "飞机票",
+            "火车票",
+            "差旅"
+        ],
+        "tax_deductible": true
+    },
+    {
+        "account_code": "6602.03",
+        "account_name": "管理费用-业务招待费",
+        "account_type": "expense",
+        "keywords": [
+            "餐饮",
+            "餐费",
+            "招待费",
+            "礼品",
+            "聚餐"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "6602.04",
+        "account_name": "管理费用-通讯费",
+        "account_type": "expense",
+        "keywords": [
+            "通信",
+            "电话",
+            "宽带",
+            "手机资费"
+        ],
+        "tax_deductible": true
+    },
+    {
+        "account_code": "6602.05",
+        "account_name": "管理费用-租赁费",
+        "account_type": "expense",
+        "keywords": [
+            "租赁",
+            "物业",
+            "房租",
+            "租金"
+        ],
+        "tax_deductible": true
+    },
+    {
+        "account_code": "6602.06",
+        "account_name": "管理费用-技术服务费",
+        "account_type": "expense",
+        "keywords": [
+            "软件",
+            "信息技术服务",
+            "云服务",
+            "服务器租赁",
+            "SaaS",
+            "技术支持"
+        ],
+        "tax_deductible": true
+    },
+    {
+        "account_code": "6601.01",
+        "account_name": "销售费用-广告宣传费",
+        "account_type": "expense",
+        "keywords": [
+            "广告",
+            "推广",
+            "营销",
+            "宣传",
+            "投放"
+        ],
+        "tax_deductible": true
+    },
+    {
+        "account_code": "1601.01",
+        "account_name": "固定资产-电子设备",
+        "account_type": "asset",
+        "keywords": [
+            "电脑",
+            "服务器",
+            "网络设备",
+            "话机",
+            "打印机",
+            "显示器"
+        ],
+        "tax_deductible": true
+    },
+    {
+        "account_code": "2221.01.01",
+        "account_name": "应交税费-应交增值税（进项税额）",
+        "account_type": "liability",
+        "keywords": [
+            "进项税"
+        ],
+        "tax_deductible": true
+    },
+    {
+        "account_code": "2202",
+        "account_name": "应付账款",
+        "account_type": "liability",
+        "keywords": [
+            "未付",
+            "应付款"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "1002",
+        "account_name": "银行存款",
+        "account_type": "asset",
+        "keywords": [
+            "已付款",
+            "银行转账",
+            "打款",
+            "对公账户"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "1001",
+        "account_name": "库存现金",
+        "account_type": "asset",
+        "keywords": [
+            "现金",
+            "现钞"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "2241.01",
+        "account_name": "其他应付款-员工报销",
+        "account_type": "liability",
+        "keywords": [
+            "员工垫付",
+            "报销款",
+            "待报销"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "1901",
+        "account_name": "待处理财产损溢",
+        "account_type": "asset",
+        "keywords": [
+            "待确认科目",
+            "未知类目",
+            "无法分类"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "1122",
+        "account_name": "应收账款",
+        "account_type": "asset",
+        "keywords": [
+            "未收款",
+            "应收款"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "6001",
+        "account_name": "主营业务收入",
+        "account_type": "revenue",
+        "keywords": [
+            "销售",
+            "服务收入",
+            "技术服务",
+            "咨询服务",
+            "软件开发"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "6051",
+        "account_name": "其他业务收入",
+        "account_type": "revenue",
+        "keywords": [
+            "租赁收入",
+            "转让",
+            "其他收入"
+        ],
+        "tax_deductible": false
+    },
+    {
+        "account_code": "2221.01.02",
+        "account_name": "应交税费-应交增值税（销项税额）",
+        "account_type": "liability",
+        "keywords": [
+            "销项税"
+        ],
+        "tax_deductible": false
+    }
+]
