@@ -1,0 +1,21 @@
+# 业务数据和隐私 (Excluding local business data)
+input/
+output/
+resources/
+
+# 开发/网站相关 (Excluding development and website workspaces)
+skillbooks-remix/
+skillbooks/
+kawaii-journey-map-skill/
+*.code-workspace
+
+# 系统/依赖 (Excluding system and dependency files)
+node_modules/
+.DS_Store
+*.log
+.tempmediaStorage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
