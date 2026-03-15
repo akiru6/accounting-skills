@@ -1,0 +1,26 @@
+name: Package Skills Zip
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zip folders
+        run: |
+          # 遍历所有文件夹并压缩成 zip
+          for d in */ ; do
+            formatted_name=${d%/}
+            zip -r "${formatted_name}.zip" "$d"
+          done
+      - name: Update Latest Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: "*.zip"
+          tag_name: latest
+          name: Latest Skill Sets
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
